@@ -1,7 +1,7 @@
 
 'use client';
 
-import { useState } from 'react';
+import { useState } from 'react';  
 import Link from 'next/link';
 
 export default function ProfilePage() {
@@ -196,13 +196,13 @@ export default function ProfilePage() {
     const file = event.target.files?.[0];
     if (file) {
       const reader = new FileReader();
-      reader.onload = (e) => {
-        if (type === 'logo') {
-          setSchoolData(prev => ({ ...prev, logo: e.target?.result as string }));
-        } else {
-          setSchoolData(prev => ({ ...prev, coverImage: e.target?.result as string }));
-        }
-      };
+      // reader.onload = (e) => {
+      //   if (type === 'logo') {
+      //     setSchoolData(prev => ({ ...prev, logo: e.target?.result as string }));
+      //   } else {
+      //     setSchoolData(prev => ({ ...prev, coverImage: e.target?.result as string }));
+      //   }
+      // };
       reader.readAsDataURL(file);
     }
   };
@@ -211,13 +211,13 @@ export default function ProfilePage() {
     const file = event.target.files?.[0];
     if (file) {
       const reader = new FileReader();
-      reader.onload = (e) => {
-        setStaff(prev => prev.map(member => 
-          member.id === staffId 
-            ? { ...member, photo: e.target?.result as string }
-            : member
-        ));
-      };
+      // reader.onload = (e) => {
+      //   setStaff(prev => prev.map(member => 
+      //     member.id === staffId 
+      //       ? { ...member, photo: e.target?.result as string }
+      //       : member
+      //   ));
+      // };
       reader.readAsDataURL(file);
     }
   };

@@ -387,11 +387,11 @@ export default function Dashboard() {
 
         {/* Virtual Classroom */}
         <div className="flex-1 bg-white/50">
-          <VirtualClassroom 
+          {/* <VirtualClassroom 
             selectedRoom={selectedRoom}
             currentUser={currentUser}
             setCurrentUser={setCurrentUser}
-          />
+          /> */}
         </div>
       </div>
 
