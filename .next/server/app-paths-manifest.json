@@ -1,9 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/admin/create-assignment/page": "app/admin/create-assignment/page.js",
+  "/admin/school-owner/page": "app/admin/school-owner/page.js",
   "/admin/organization/page": "app/admin/organization/page.js",
   "/admin/platform/page": "app/admin/platform/page.js",
-  "/admin/school-owner/page": "app/admin/school-owner/page.js",
   "/admin/teacher/page": "app/admin/teacher/page.js",
   "/admin/users/page": "app/admin/users/page.js",
   "/assignments/page": "app/assignments/page.js",
@@ -13,9 +13,9 @@
   "/dashboard/page": "app/dashboard/page.js",
   "/games/page": "app/games/page.js",
   "/page": "app/page.js",
-  "/profile/page": "app/profile/page.js",
-  "/setup/page": "app/setup/page.js",
   "/spaces/page": "app/spaces/page.js",
+  "/setup/page": "app/setup/page.js",
+  "/profile/page": "app/profile/page.js",
   "/spaces/test/page": "app/spaces/test/page.js",
   "/virtual-office/tasks/page": "app/virtual-office/tasks/page.js"
 }
